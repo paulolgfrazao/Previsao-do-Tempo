@@ -1,0 +1,93 @@
+* {
+    /*O asterisco representa modificação no site todo*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh; /*Ocupa a tela toda*/
+    width: 100vw;  /*Ocupa a tela toda*/
+    display: flex;
+    justify-content: center; /*Alinha no eixo horizontal*/
+    align-items: center;  /*Alinha no eixo vertical*/
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.caixa-maior{
+    background: #000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;  /*distanciar um p do outro*/
+    width: 85%;
+    max-width: 450px;
+}
+
+.input-cidade{
+    border: none; /*none tira, nesse caso a borda*/
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #7c7c7c4b;
+    color: #fff;
+    width: calc(100% - 50px);
+}
+
+.btn{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #7c7c7c4b;
+    cursor: pointer; /*Quando o mouse passar, inves de seta fica mão*/
+    float: right; /*Vai ficar o maximo da esquerda possivel*/
+}
+
+.img-busca{
+    width: 20px;
+}
+
+.caixa-media{
+    margin-top: 20px;
+}
+
+.cidade{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.pais{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.temp{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.caixa-menor{
+    display: flex;  /*inves da nuvem estar em cima e texto em baixo, um está ao lado do outro*/
+    align-items: center;  /*alinha direito os dois*/
+    margin-top: 20px;
+}
+
+.text-previsao{
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize; /*Primeira letra maiuscula*/
+}
+
+.umidade{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 15px;
+}
